@@ -9,114 +9,8 @@ HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programing rocks</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-
-<header>
-    <nav>
-        <a class="greyLink" href="add_a_link">
-            <p>About</p>
-        </a>
-        <a class="greyLink" href="add_a_link">
-            <p>Store</p>
-        </a>
-    </nav>
-    <section>
-        <a class="whiteLink" href="add_a_link">
-            <p>Gmail</p>
-        </a>
-        <a class="whiteLink" href="add_a_link">
-            <p>Images</p>
-        </a>
-        <a class="whiteLink" href="add_a_link">
-            <i class="fa-solid fa-braille"></i>
-        </a>
-        <a href="add_a_link">
-            <img src="/htmlintro/public/cat.jpeg"/>
-        </a>
-    </section>
-</header>
-<main>
-    <div>
-        <h1 class="headertext" 
-        id="headerLogo">Google</h1>
-    </div>
-    <div class="searchBar">
-        <div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <input />
-        <div class="buttonIconContainer">
-            <button class="iconButton">
-                <i class="fa-solid fa-microphone"></i>
-            </button>
-            <button class="iconButton">
-                <i class="fa-solid fa-camera"></i>
-            </button>
-        </div>
-    </div>   
-    <div class="searchButtonsContainer">
-            <button>
-                <p>Google Search</p>
-            </button>
-            <button>
-                <p>I'm Feeling lucky</p>
-            </button>
-    </div>
-    <div>
-        <div class="languageSelection">
-            <div>
-                <p>Google offered in:</p>
-            </div>
-            <div>
-                <span>Español</span> 
-            </div>
-            <div>
-                <span>català</span>
-            </div>
-            <div>
-                <span>galego</span>
-            </div>
-            <div>
-                <span>euskara</span>
-            </div>
-        </div>
-    </div>     
-</main>
-
-
-<footer>
-    <section>
-        <p>Spain</p>
-    </section>
-    <section>
-        <div class="footerLink">
-            <a>About</a>
-            <a>Advertising</a>
-            <a>Business</a>
-            <a>How Search works</a>
-        </div>
-        <div class="footerLink">
-            <a>Privacy</a>
-            <a>Terms</a>
-            <a>Settings</a>
-        </div>
-    </section>
-
-
-</footer>
-
-</body>
-</html>
-
-
-
-
-CSS
-
-* {
+    <style>
+        * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -322,27 +216,108 @@ footer > section:last-child {
         flex-direction: row;
     }
 }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
 
-/*.languageSelection span {
-    font-size: .9em;
-    color: #8ab4f8;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    cursor: pointer;
-    
+<header>
+    <nav>
+        <a class="greyLink" href="add_a_link">
+            <p>About</p>
+        </a>
+        <a class="greyLink" href="add_a_link">
+            <p>Store</p>
+        </a>
+    </nav>
+    <section>
+        <a class="whiteLink" href="add_a_link">
+            <p>Gmail</p>
+        </a>
+        <a class="whiteLink" href="add_a_link">
+            <p>Images</p>
+        </a>
+        <a class="whiteLink" href="add_a_link">
+            <i class="fa-solid fa-braille"></i>
+        </a>
+        <a href="add_a_link">
+            <img src="/htmlintro/public/cat.jpeg"/>
+        </a>
+    </section>
+</header>
+<main>
+    <div>
+        <h1 class="headertext" 
+        id="headerLogo">Google</h1>
+    </div>
+    <div class="searchBar">
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <input />
+        <div class="buttonIconContainer">
+            <button class="iconButton">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+            <button class="iconButton">
+                <i class="fa-solid fa-camera"></i>
+            </button>
+        </div>
+    </div>   
+    <div class="searchButtonsContainer">
+            <button>
+                <p>Google Search</p>
+            </button>
+            <button>
+                <p>I'm Feeling lucky</p>
+            </button>
+    </div>
+    <div>
+        <div class="languageSelection">
+            <div>
+                <p>Google offered in:</p>
+            </div>
+            <div>
+                <span>Español</span> 
+            </div>
+            <div>
+                <span>català</span>
+            </div>
+            <div>
+                <span>galego</span>
+            </div>
+            <div>
+                <span>euskara</span>
+            </div>
+        </div>
+    </div>     
+</main>
 
-}
 
-.languageSelection span:hover {
-    text-decoration: underline;
-}
+<footer>
+    <section>
+        <p>Spain</p>
+    </section>
+    <section>
+        <div class="footerLink">
+            <a>About</a>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search works</a>
+        </div>
+        <div class="footerLink">
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Settings</a>
+        </div>
+    </section>
 
-.languageSelection span {
-    margin-right: 10px; /* Adjust the value as needed 
-}
 
-*/
+</footer>
+
+</body>
+</html>
+
+
+
